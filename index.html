@@ -1,0 +1,230 @@
+<!DOCTYPE htitl>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ICONO BOOTSTRAP -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- CSS  -->
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Adamina&display=swap" rel="stylesheet">
+        <title>Apasionadosxviajar</title>
+        
+    </head>
+
+    <body>
+        <!-- encabezado:logo,titulo y navegacion -->
+        <header>
+
+        
+        <nav class="navbar navbar-expand-lg navbar-dark style="background-color: #e3f2fd; >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="logo"src="./img/logo.png" alt="LOGO"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/prensa.html">Prensa</a>
+                  </li>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+                <form class="d-flex " role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar en el blog" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+               
+              </div>
+            </div>
+          </nav>
+          <!-- CARROUSEL -->
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" >
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner imagenaltura">
+              <div class="carousel-item active">
+                <img src="https://img.freepik.com/foto-gratis/vista-montanas-patagonia-argentina_181624-49242.jpg?w=740&t=st=1660677004~exp=1660677604~hmac=b422f1f3289823f373b7051bab59cefeb304c2b3d13905d22f9d2f3223504ddd" class="d-block w-100" alt="mendoza">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="bg-secondary ">ARGENTINA</h3>
+                  <p class="bg-secondary ">¡País multicultural con miles de rincones para descubrir!</p>
+                </div>
+              </div>
+              <div class="carousel-item imagenaltura ">
+                <img src="https://img.freepik.com/foto-gratis/hermoso-paisaje-arco-iris-sobre-cascada-parque-nacional-iguazu-cataratas-argentina_181624-59436.jpg?t=st=1660677267~exp=1660677867~hmac=98442e44007b21b2942f585798f492aa38ac6bdfaa44a9f0ddcb8e970ac86a87" class="d-block w-100" alt="nieve">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="bg-secondary">ARGENTINA</h3>
+                  <p class="bg-secondary">¡País multicultural con miles de rincones para descubrir!</p>
+                </div>
+              </div>
+              <div class="carousel-item imagenaltura">
+                <img src="https://img.freepik.com/foto-gratis/primer-plano-picos-fitz-roy-aguja-poincenot-izquierda_181624-49200.jpg?w=740&t=st=1660677241~exp=1660677841~hmac=4c93890796c01ca2abc6f1239796852c2d6d956dfd8a6f033ba6896e724729f1" class="d-block w-100" alt="chalten">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="bg-secondary">ARGENTINA</h3>
+                  <p class="bg-secondary">¡País multicultural con miles de rincones para descubrir!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+
+        </header>
+        <!-- cierre del encabezado:logo,titulo y navegacion -->
+        <main class="principal"> 
+    
+            <h2 class="mt-4">
+                VIAJA POR ARGENTINA
+            </h2>
+            <P>Dentro de cada una de las provincias que conforman la Argentina existen distintos atractivos, destinos y tesoros imposibles de imaginar. Basta con sumergirnos en ellas para comenzar a recorrer un sinfín de horizontes, ciudades y geografías propias que seguramente lograrán incentivarnos para comenzar un viaje.
+                Paisajes con sierras, montañas, quebradas, ríos, lagos, lagunas, campo y mar esperan a quien se anime a buscarlos. Ciudades grandes, chicas, parecidas y tan distintas a la vez, se esconden a lo largo del mapa para ser descubiertas por quién las visite.
+                Cada provincia tiene una historia que te está esperando, tenés que encontrar la tuya.</P>
+        </main>
+
+            <section class="row">
+                <article class="col-xl-4 col-md-4 col-sm-12 text-center  "><div class="card border border-primary m-3" style="width: 18rem;">
+                    <img src="./img/mendoza.jpg" class="card-img-top" alt="mendoza">
+                    <div class="card-body">
+                      <h5 class="card-title">MENDOZA</h5>
+                      <p class="card-text">La tierra del sol y el vino te invita a recorrer sus bodegas y a disfrutar de su gente
+                      </p>
+                      <a href="#" class="btn btn-primary">Ir</a>
+                    </div>
+                  </div>
+                </article>
+                <article class="col-xl-4 col-md-4 col-sm-12 text-center "><div class="card border border-primary m-3" style="width: 18rem;">
+                    <img src="./img/mendoza.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">SANTA CRUZ</h5>
+                      <p class="card-text">La mítica ruta 40, el mar, la cordillera y los glaciares, todo esto es Santa Cruz</p>
+                      <a href="#" class="btn btn-primary">Ir </a>
+                    </div>
+                  </div>
+                </article>
+                <article class="col-xl-4 col-md-4 col-sm-12 text-center"><div class="card border border-primary m-3" style="width: 18rem;">
+                    <img src="./img/bsas.jpg" class="card-img-top" alt="bsas">
+                    <div class="card-body">
+                      <h5 class="card-title">LA RIOJA</h5>
+                      <p class="card-text">La Rioja es cultura mas gastronomia y deliciosos vinos </p>
+                      <a href="#" class="btn btn-primary">Ir</a>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="col-xl-4 col-md-4 col-sm-12 text-center"><div class="card border border-primary m-3" style="width: 18rem;">
+                    <img src="./img/mendoza.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">RIO NEGRO</h5>
+                      <p class="card-text">Lagos y recorridos inolvidables, inviernos blancos y veranos coloridos...</p>
+                      <a href="#" class="btn btn-primary">Ir</a>
+                    </div>
+                  </div>
+                </article>
+                <article class="col-xl-4 col-md-4 col-sm-12 text-center"><div class="card border border-primary m-3" style="width: 18rem;">
+                    <img src="./img/misiones.jpg" class="card-img-top" alt="misiones">
+                    <div class="card-body">
+                      <h5 class="card-title">MISIONES</h5>
+                      <p class="card-text">Visitá una de las 7 maravilas naturales, Cataratas del Iguazú te espera...</p>
+                      <a href="#" class="btn btn-primary">Ir</a>
+                    </div>
+                  </div>
+                </article>
+                <article class="col-xl-4 col-md-4 col-sm-12 text-center"><div class="card   border border-primary m-3" style="width: 18rem;">
+                    <img src="./img/mendoza.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">TIRRA DEL FUEGO</h5>
+                      <p class="card-text">La tierra del fin del mundo, dejate deslumbrar...</p>
+                      <a href="#" class="btn btn-primary">Ir</a>
+                    </div>
+                  </div>
+                </article>
+            
+            </section>
+
+
+            <aside class="aside">
+                <h3 class="text-center">NOSOTROS</h3>
+                <P>Hola somos Lean y Yani una pareja argentina de viajeros, les damos la bienvenida a nuestro blog de viajes apasionadosxviajar , un blog que nació en el año 2020 a partir de una cuenta de Instagram donde hoy tenemos mas de 135.000 seguidores, con la idea de crear un espacio donde compartir nuestras fotos de viaje con los que estuvieran interesados en recorrer los diferentes lugares que habíamos visitado.  Hoy el blog como la cuenta sirven de ayuda a muchos viajeros que no solo les gusta leer, sino también informarse y planificar sus viajes.
+                    <br>
+                    Cada uno tiene sus trabajos en Buenos Aires , por lo cual no vivimos de las redes sino que lo hacemos porque nos gusta que cada persona viaje con la mayor información posible como nos gusta a nosotros.
+                    
+                    Amamos viajar y amamos ayudar al que quiere emprender este camino sin retorno del cual creemos que es la mejor forma de abrir la cabeza hacia un mundo que es diferente en cada rincón que visitemos.
+                    
+                    Culturas , comidas , religiones, comportamientos , paisajes , ciudades , arquitectura y mas, cada una de ellas es diferente en cada lugar que visitemos y eso es lo que te permite salir un poco de lo que vivís a diario para conocer como vive el resto del mundo.
+                    <br>
+                    Viajá no lo dudes aunque sea cerca , soñá con viajar nunca pienses que es imposible , es la mejor recomendación que podemos darte porque no te vas a arrepentir.
+                    
+                    Esperamos que disfruten y tomen los consejos y experiencias que hemos vivido en cada uno de nuestros viajes para que puedan organizar sus travesías aprovechándolas y disfrutándolas al máximo.</P>
+            </aside>   
+
+        
+            <div class="container-fluid">
+                <div class="row p-5 bg-secondary text-white">
+                    <div class="col-cs-12 col-md-6 col-lg-3">
+                        <p class="h3 text-dark">Blog de viajes Apasionadosxviajar</p>
+                    </div>
+                    <div class="col-cs-12 col-md-6 col-lg-3">
+                        <p class="h5 text-dark">Redes Sociales</p>
+                        <div class="mb-2">
+                            <a class="text-white" href="https://www.instagram.com/apasionadosxviajar/">Instagram</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-white" href="https://www.facebook.com/leandro.pirraglia">Facebook</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-white" href="https://www.linkedin.com/in/leandro-pirraglia-78b582161">linkedin</a>
+                        </div>
+                    </div>
+                    <div class="col-cs-12 col-md-6 col-lg-3">
+                        <p class="h5 text-dark">Links</p>
+                        <div class="mb-2">
+                            <a class="text-white" href="#">Terms & Conditions</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-white" href="#">Privacy Policy</a>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
