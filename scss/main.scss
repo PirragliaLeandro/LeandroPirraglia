@@ -1,63 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-article h3{font-weight: bold; text-align: center;}
-article p{text-align: center;}
-h1{font-size: 3rem;}
-h2{font-size: 1,5rem;}
-footer img{width: 250px;}
-
-label{padding: 10px;}
-a{ text-decoration: none;}
-input{padding: 10px;}
-p{
-    font-size: 1rem;
-    font-family:'Adamina', serif;
-    font-weight: 400;
-    padding: 10px;
-}
-body{
-    background: rgb(126,181,236);
-    background: linear-gradient(180deg, rgba(126,181,236,1) 2%, rgba(255,255,255,1) 56%, rgba(126,181,236,1) 100%);
-}
-
-ul{
-    list-style-type: none;
-    font-style: italic;
-    font-weight: bold;
-}
+@import "./componentes/imagenes";
+@import "./componentes/contacto.scss";
+@import "./componentes/footer.scss";
+@import "./componentes/index.scss";
+@import "./componentes/nosotros.scss";
+@import "./componentes/prensa.scss";
 
 
-section img{
-    width: 500px;
-    height:auto;
-    padding: 25px;
-    
-}
 
-// /* ----------------HEADER---------------------- */
-.logo{
-width: auto;
-height: 70px;
-}
 
-.d-flex{
-    width: 500px;
-    height: 75px;
-}
 
-.carousel-item{
-    height: 90vh;
-}
-
-.btn:hover{
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    }
 
     // .nav-item:hover{
     //     font-size: 1.5rem;
@@ -66,10 +17,7 @@ height: 70px;
     // }
 
 
-    .nav-item:hover{
-        font-size: 1.5rem;
-        
-    }
+ 
         
 // .lista__nav{text-align: center;
 //     display: flex;
@@ -91,92 +39,7 @@ height: 70px;
     
 // }
 
-.card:hover{
-    transform: scale(1.1);
-    transition-duration: 2s;
-    
-
-    &__card-img-top{
-        border-radius: 50%;
-    }
-
-}
-
-.principal{
-    text-align: center;
-    color: rgb(83, 80, 80);
-}
-
-.aside{
-    margin: 20px;
-    padding: 15px;
-}
-
-.container-fluid:hover{
-    color: black;
-}
 
 
 
-/* ----------------NOSOTROS---------- */
-.section__fotos{
-    display: flex;
-    justify-content: center;
-}
-.nosotros__h2{
-    padding: 10px;
-    text-align: center;
-}
-
-/* -----------------PRESA------------------ */
-.prensa{
-    text-align: center;
-    padding: 10px;
-}
-
-iframe{
-    padding: 10px;
-}
-.subtitulo__h2{
-    padding: 10px;
-}
-
-.radio__h3{
-    padding: 10px;
-}
-
-
-/* -----------------CONTACTO------------------ */
-
-form{
-    width: 700px;
-    margin: 0 auto;
-    border: 5px solid black;
-    background-color: rgb(189, 189, 189);
-    padding: 15px;
-    border-radius: 3px;   
-}
-.contacto_h3{
-    text-align: center;
-    padding: 10px;
-}
-
-
-
-/* --------------GALERIA--------- */
-
-.galeria__h3{
-    text-align: center;
-    padding: 10px;
-}
-.section__galeria{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-//footer//
-.container-fluid div a:hover{
-    color: black;
-    
-}
 

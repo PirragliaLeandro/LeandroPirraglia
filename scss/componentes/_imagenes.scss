@@ -1,0 +1,47 @@
+section img{
+    width: 500px;
+    height:auto;
+    padding: 25px;
+}
+
+.logo{
+    width: auto;
+    height: 70px;
+    }
+    
+ .carousel-item{
+    height: 90vh;
+}    
+
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    
+
+    &__card-img-top{
+        border-radius: 50%;
+    }
+}
+
+.section__fotos{
+    display: flex;
+    justify-content: center;
+}
+
+.galeria__h3{
+    text-align: center;
+    padding: 10px;
+}
+
+footer img{width: 250px;}
+
+.section__galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    width: 500px;
+    height: 75px;
+}
+
