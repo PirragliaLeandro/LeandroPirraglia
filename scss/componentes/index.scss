@@ -1,0 +1,57 @@
+.principal{
+    text-align: center;
+    color: rgb(83, 80, 80);
+}
+
+.aside{
+    margin: 20px;
+    padding: 15px;
+}
+
+.container-fluid:hover{
+    color: black;
+}
+
+.nav-item:hover{
+    font-size: 1.5rem;
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    article h3{font-weight: bold; text-align: center;}
+    article p{text-align: center;}
+    h1{font-size: 3rem;}
+    h2{font-size: 1,5rem;}
+    
+    
+    label{padding: 10px;}
+    a{ text-decoration: none;}
+    input{padding: 10px;}
+    p{
+        font-size: 1rem;
+        font-family:'Adamina', serif;
+        font-weight: 400;
+        padding: 10px;
+    }
+    body{
+        background: rgb(126,181,236);
+        background: linear-gradient(180deg, rgba(126,181,236,1) 2%, rgba(255,255,255,1) 56%, rgba(126,181,236,1) 100%);
+    }
+    
+    ul{
+        list-style-type: none;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
