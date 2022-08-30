@@ -24,8 +24,8 @@ section img{
 }
 
 .section__fotos{
-    display: flex;
-    justify-content: center;
+    
+    @include flex(center, center);
 }
 
 .galeria__h3{
