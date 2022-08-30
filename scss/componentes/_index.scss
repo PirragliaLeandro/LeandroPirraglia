@@ -1,3 +1,10 @@
+
+ article {font-weight: bold;
+    
+    h3{ text-align: center;}
+
+}
+
 .principal{
     text-align: center;
     color: rgb(83, 80, 80);
@@ -9,18 +16,20 @@
 }
 
 .container-fluid:hover{
-    color: black;
+    color: $colornegro;
 }
 
-.nav-item:hover{
-    font-size: 1.5rem;
+.nav-item{
+    background-color: $colornegro;
+    
+    // font-size: 1.5rem;
     
 }
 
 .btn:hover{
     background-color: white;
-    color: black;
-    border: 2px solid black;
+    color: $colornegro;
+    border: 2px solid $colornegro;
     }
 
     *{
@@ -29,7 +38,7 @@
         box-sizing: border-box;
     }
     
-    article h3{font-weight: bold; text-align: center;}
+   
     article p{text-align: center;}
     h1{font-size: 3rem;}
     h2{font-size: 1,5rem;}
@@ -45,7 +54,7 @@
         padding: 10px;
     }
     body{
-        background: rgb(126,181,236);
+        background:black;
         background: linear-gradient(180deg, rgba(126,181,236,1) 2%, rgba(255,255,255,1) 56%, rgba(126,181,236,1) 100%);
     }
     
